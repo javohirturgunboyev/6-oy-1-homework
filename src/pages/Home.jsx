@@ -5,9 +5,9 @@ import rasmlar3 from "../images/image 29.png"
 import rasmlar4 from "../images/image 28.png"
 import rasmlar5 from "../images/image 27.png"
 import rasimlar10 from "../images/rasimlar10.png"
-import rasimlar11 from "../images/rasimlar11.png"
+import rasimlar11 from "../images/card 2 img.png"
 import rasimlar12 from "../images/rasimlar12.png"
-import rasimlar13 from "../images/rasimlar13.png"
+import rasimlar13 from "../images/card 4 img.png"
 import rasim20 from "../images/rasim20.png"
 import image from "../images/image40.png"
 import image2 from "../images/Group11.png"
@@ -18,7 +18,7 @@ function Home() {
         <div className="Liburan" >
             <div>
                 <p className="bg-sky-300 text-sky-600 font-bold text-sm py-2 px-2 rounded-full max-w-80 text-center">✈ • Explore the wonderful indonesia!</p>
-                <h1 className="pt-3 text-7xl font-extrabold">Liburan & nikmati<p className="text-7xl text-indigo-900">tempat baru </p >di indonesia  ️🏝</h1>
+                   <h1 className="pt-3 text-7xl font-extrabold">Liburan & nikmati<p className="text-7xl text-indigo-900">tempat baru </p >di indonesia  ️🏝</h1>
                 <p className="text-slate-600 pt-7 max-w-md text-base font-medium">Destinize membuat kamu selalu update terkait tempat liburan baru di Indonesia dengan mengikuti perkembangan para influencer di sosial media ✨</p>
                 <div className='div-6 mt-9'>
                     <button className='w-52 h-16 rounded-lg text-base font-bold bg-cyan-800 text-slate-50'>Mulai sekarang →</button>
@@ -48,7 +48,7 @@ function Home() {
         </div>
         <div className='div-9'>
 
-        <div className='div-8'>
+     <div className='div-8'>
             <div>
 
             <p className='p1'>DESTINASI FAVORIT</p>
@@ -57,10 +57,22 @@ function Home() {
            <a href="">Lihat semua ›</a>
         </div>
         <div className='div-8 mt-6'>
-         <img src={rasimlar10} alt="" />
-         <img src={rasimlar12} alt="" />
-         <img src={rasimlar10} alt="" />
-         <img src={rasimlar12} alt="" />
+         <div className="card"><img src={rasimlar10} alt="" /><div className="card_info">
+          <h3>Labuan Bajo</h3>
+          <span>NTT</span>
+          </div></div>
+         <div className="card"><img src={rasimlar11} alt="" /><div className="bg"></div><div className="card_info">
+          <h3>Labuan Bajo</h3>
+          <span>NTT</span>
+          </div></div>
+         <div className="card"><img src={rasimlar12} alt="" /><div className="card_info">
+          <h3>Labuan Bajo</h3>
+          <span>NTT</span>
+          </div></div>
+         <div className="card"><img src={rasimlar13} alt="" /><div className="bg"></div><div className="card_info">
+          <h3>Labuan Bajo</h3>
+          <span>NTT</span>
+          </div></div>
 
         </div>
         </div>
